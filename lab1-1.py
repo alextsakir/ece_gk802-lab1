@@ -15,5 +15,3 @@ for index, cookie in enumerate(response.cookies):
         if cookie.__dict__[attr]:
             print(attr, cookie.__dict__[attr])
     break
-
-print("this is a change for branch")
